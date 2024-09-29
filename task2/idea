@@ -1,0 +1,9 @@
+1- First File added was based on:
+  Feature extraction including: 
+    statistical features of the raw data, 
+    statistical features of the signal extracted with biospy.ecg()
+    time series feature extraction technique including: Minirocket, tsfel
+    No convolutional network is applied
+  Prediction Methods:
+    XGBoost,LGBM, GradientBoosting
+  

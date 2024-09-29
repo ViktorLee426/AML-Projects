@@ -1,0 +1,87 @@
+{
+    "preprocessing_config": {
+        "order": [
+            "outlier_detector",
+            "imputer",
+            "scaler",
+            "selector"
+        ],
+        "outlier_detector": "EricsVotingDetector",
+        "outlier_detector_hyperparams": {},
+        "imputer": "SimpleImputer",
+        "imputer_hyperparams": {
+            "strategy": "median"
+        },
+        "scaler": "StandardScaler",
+        "scaler_hyperparams": {},
+        "selector": "SelectKBest",
+        "selector_hyperparams": {
+            "score_func": "f_regression",
+            "k": 175
+        },
+        "param_grid": {
+            "model__max_depth": [
+                3,
+                4,
+                5,
+                6,
+                8
+            ],
+            "model__min_child_weight": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "model__learning_rate": [
+                0.05,
+                0.1,
+                0.15
+            ],
+            "model__gamma": [
+                0.0,
+                0.1,
+                0.2
+            ],
+            "model__colsample_bytree": [
+                0.3,
+                0.4
+            ]
+        }
+    },
+    "model_config": {
+        "model": "XGBRegressor",
+        "model_hyperparams": {},
+        "param_grid": {
+            "model__max_depth": [
+                3,
+                4,
+                5,
+                6,
+                8
+            ],
+            "model__min_child_weight": [
+                1,
+                3,
+                5,
+                7
+            ],
+            "model__learning_rate": [
+                0.05,
+                0.1,
+                0.15
+            ],
+            "model__gamma": [
+                0.0,
+                0.1,
+                0.2
+            ],
+            "model__colsample_bytree": [
+                0.3,
+                0.4
+            ]
+        }
+    },
+    "n_jobs": 5,
+    "cv_folds": 5
+}

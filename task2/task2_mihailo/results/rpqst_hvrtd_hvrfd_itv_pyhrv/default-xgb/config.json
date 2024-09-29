@@ -1,0 +1,1 @@
+{"preprocessing_config": {"order": ["imputer"], "imputer": "SimpleImputer", "imputer_hyperparams": {"strategy": "mean"}, "param_grid": {}}, "model_config": {"model": "XGBClassifier", "model_hyperparams": {}, "param_grid": {}}, "n_jobs": 4, "cv_folds": null, "data": "rpqst_hvrtd_hvrfd_itv_pyhrv"}

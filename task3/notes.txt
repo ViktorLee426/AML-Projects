@@ -1,0 +1,3 @@
+Amateur videos are all 112x112
+
+Minimum dimension of expert videos is 583

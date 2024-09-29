@@ -1,2 +1,2 @@
-# AML-Projects
-Advanced Machine Learning Course at ETH Zurich, Course projects
+# aml-2023
+My team's code for the Advanced Machine Learning course projects at ETH Zurich.

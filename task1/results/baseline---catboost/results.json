@@ -1,0 +1,64 @@
+{
+    "mean_fit_time": [
+        16.98658618927002
+    ],
+    "std_fit_time": [
+        0.05380799236203142
+    ],
+    "mean_score_time": [
+        0.008761978149414063
+    ],
+    "std_score_time": [
+        0.0023392640867325033
+    ],
+    "params": [
+        {}
+    ],
+    "split0_test_score": [
+        0.5249142475265896
+    ],
+    "split1_test_score": [
+        0.5216116294377356
+    ],
+    "split2_test_score": [
+        0.6419963928195065
+    ],
+    "split3_test_score": [
+        0.6088120893108802
+    ],
+    "split4_test_score": [
+        0.47352061607007756
+    ],
+    "mean_test_score": [
+        0.5541709950329577
+    ],
+    "std_test_score": [
+        0.061837695412628735
+    ],
+    "rank_test_score": [
+        1
+    ],
+    "split0_train_score": [
+        0.9957079252991903
+    ],
+    "split1_train_score": [
+        0.9964225873037755
+    ],
+    "split2_train_score": [
+        0.9957005340234887
+    ],
+    "split3_train_score": [
+        0.9950013095471927
+    ],
+    "split4_train_score": [
+        0.9962241488707895
+    ],
+    "mean_train_score": [
+        0.9958113010088873
+    ],
+    "std_train_score": [
+        0.0004946021273353409
+    ],
+    "best_score": 0.5541709950329577,
+    "best_params": {}
+}
